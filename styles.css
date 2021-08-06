@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 40vh;
+  max-height: 100vh;
+}
+
+p {
+  margin-left: 10px;
+}
+
+#isu {
+  margin-top: 10px;
+  margin-left: 0;
+}
+
+@media (max-width: 525px) {
+  img {
+    max-width: 35vh;
+  }
+}
