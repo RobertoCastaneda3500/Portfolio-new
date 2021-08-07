@@ -9,6 +9,25 @@ html {
   padding: 0;
   box-sizing: border-box;
 }
+
+#name {
+  font-size: 33px;
+}
+
+@media (max-width: 500px) {
+  #name {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 350px) {
+  #name {
+    font-size: 21px;
+  }
+}
+.nav-link {
+  font-size: 20px;
+}
 /*about me section*/
 /*change p for about me section only*/
 p {
