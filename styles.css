@@ -1,25 +1,31 @@
+/*Font import*/
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
-img {
-  max-width: 40vh;
-  max-height: 100vh;
-}
-
+/*about me section*/
+/*change p for about me section only*/
 p {
+  font-size: 23px;
   margin-left: 10px;
+  max-width: 100vh;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
-#isu {
-  margin-top: 10px;
-  margin-left: 0;
-}
-
+/*mobile settings*/
 @media (max-width: 525px) {
   img {
     max-width: 35vh;
   }
+}
+#footer {
+  background-color: lightgray;
+  font-size: 20px;
+  text-decoration: ;
 }
