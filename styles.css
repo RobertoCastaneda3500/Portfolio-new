@@ -9,7 +9,7 @@ html {
   padding: 0;
   box-sizing: border-box;
 }
-
+/*navigation */
 #name {
   font-size: 33px;
 }
@@ -25,18 +25,52 @@ html {
     font-size: 21px;
   }
 }
+
 .nav-link {
   font-size: 20px;
 }
+
+/*end of navigation*/
+
+/*intro section */
+
+@media (min-width: 770px) {
+  #introone {
+    font-size: 40px;
+  }
+  #introtwo {
+    font-size: 50px;
+  }
+  #introthree {
+    font-size: 30px;
+  }
+}
+@media (max-width: 500px) {
+    #introthree {
+
+        font-size: 18px;
+    }
+}
+@media (max-width:330px){
+    #introtwo{
+        font-size:20px
+    }
+/*end of intro section
+
+
+
+
+
+
+
 /*about me section*/
-/*change p for about me section only*/
-p {
+.Introparagraph {
   font-size: 23px;
   margin-left: 10px;
   max-width: 100vh;
   font-family: "Source Sans Pro", sans-serif;
 }
-
+/*end of about me section*/
 /*mobile settings*/
 @media (max-width: 525px) {
   img {
