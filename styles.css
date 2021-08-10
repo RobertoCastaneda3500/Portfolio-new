@@ -1,9 +1,6 @@
 /*Font import*/
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Catamaran&family=Paytone+One&display=swap");
 
-html {
-  scroll-behavior: smooth;
-}
 * {
   margin: 0;
   padding: 0;
