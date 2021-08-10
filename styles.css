@@ -1,5 +1,5 @@
 /*Font import*/
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Catamaran&family=Paytone+One&display=swap");
 
 html {
   scroll-behavior: smooth;
@@ -34,6 +34,17 @@ html {
 
 /*intro section */
 
+@media (min-width: 1000px) {
+  .infoPic {
+    width: 100vh;
+  }
+}
+@media (max-width: 760px) {
+  .infoPic {
+    max-width: 100px;
+  }
+}
+
 @media (min-width: 770px) {
   #introone {
     font-size: 40px;
@@ -46,39 +57,62 @@ html {
   }
 }
 @media (max-width: 500px) {
-    #introthree {
-
-        font-size: 18px;
-    }
-}
-@media (max-width:330px){
-    #introtwo{
-        font-size:20px
-    }
-/*end of intro section
-
-
-
-
-
-
-
-/*about me section*/
-.Introparagraph {
-  font-size: 23px;
-  margin-left: 10px;
-  max-width: 100vh;
-  font-family: "Source Sans Pro", sans-serif;
-}
-/*end of about me section*/
-/*mobile settings*/
-@media (max-width: 525px) {
-  img {
-    max-width: 35vh;
+  #introthree {
+    font-size: 18px;
   }
 }
+@media (max-width: 330px) {
+  #introtwo {
+    font-size: 20px;
+  }
+}
+/*end of intro section */
+
+/*about me section */
+.aboutMee {
+  max-width: 100vh;
+}
+
+.introParagraph {
+  font-family: "Biryani", sans-serif;
+  font-size: 22px;
+}
+
+@media (max-width: 450px) {
+  #p1,
+  #p2,
+  #p3 {
+    text-align: center;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 800px) {
+  .infoPic {
+    max-width: 100vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1000px) {
+  .infoPic {
+    max-width: 375px;
+  }
+
+  #p1,
+  #p3 {
+    padding-left: 10px;
+  }
+}
+
+/*footer*/
 #footer {
   background-color: lightgray;
   font-size: 20px;
-  text-decoration: ;
 }
+
+/*font-family: 'Alegreya Sans SC', sans-serif;
+font-family: 'Catamaran', sans-serif;
+font-family: 'Paytone One', sans-serif;*/
