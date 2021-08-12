@@ -1,6 +1,9 @@
 /*Font import*/
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Catamaran&family=Paytone+One&display=swap");
 
+/*Bootstrap5*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
 html {
   scroll-behavior: smooth;
 }
@@ -71,6 +74,11 @@ html {
     font-size: 20px;
   }
 }
+
+#redbirds {
+  color: red;
+  font-weight: 800;
+}
 /*end of intro section */
 
 /*about me section */
@@ -116,15 +124,20 @@ html {
 }
 
 /*projects section*/
-
-/*footer section*/
-
-/*footer*/
-.footer {
-  background-color: lightgray;
-  font-size: 20px;
+@media (min-width: 350px) {
 }
 
+/*form section*/
+.form {
+  max-width: 90vh;
+}
+
+/*footer*/
+.copyright {
+  background-color: rgba(169, 169, 169, 0.9);
+}
+
+/*fonts used in this project*/
 /*font-family: 'Alegreya Sans SC', sans-serif;
 font-family: 'Catamaran', sans-serif;
 font-family: 'Paytone One', sans-serif;*/

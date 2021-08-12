@@ -8,8 +8,15 @@
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
     />
-
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta
+      name="description"
+      content="Roberto Castaneda Portfolio as of 8-11-2021"
+    />
+    <!--Tabs name-->
     <title>Roberto Castaneda Portfolio</title>
+
+    <!--links to css, fonts, icons, and bootstrap5-->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -27,13 +34,20 @@
       href="https://fonts.googleapis.com/css2?family=Biryani&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
   </head>
 
+  <!--Code starts here-->
   <body>
     <!--Navbar-->
     <nav class="navbar sticky-top navbar-expand-md bg-dark navbar-dark">
       <div class="container">
+        <!--Logo-->
         <a id="name" href="" class="navbar-brand">Roberto Castaneda</a>
+        <!--Navigation icon (Hamburger icon on md size and below)-->
         <button
           class="navbar-toggler"
           type="button"
@@ -46,6 +60,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
+        <!--Navigation options-->
         <div class="collapse navbar-collapse text-center" id="navmenu">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
@@ -76,6 +91,7 @@
       </div>
     </section>
 
+    <!--About me section-->
     <section id="aboutMe" class="bg-light text-dark py-5">
       <div class="aboutMee container">
         <h1 class="title pt-4 pb-3 text-center">About Me</h1>
@@ -104,7 +120,7 @@
             After years in the city, I went off to college to Illinois State
             University in Normal, Illinois. After 4 years, I graduated with a
             bachelors of science in Computer Systems Technology.
-            <b>GO REDBIRDS!</b>
+            <b id="redbirds">GO REDBIRDS!</b>
           </p>
         </div>
 
@@ -124,65 +140,157 @@
       </div>
     </section>
 
-    <!--projects section  -->
+    <!--Projects section  -->
     <section class="bg-dark text-light p-5" id="projects">
       <div class="container">
+        <h1 class="title pt-4 pb-3 text-center">Projects</h1>
+
         <div class="justify-content-center row text-center">
-          <div class="proj row row-cols-1 row-cols-md-3 row-cols-lg-4 g-3">
+          <div class="proj row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3">
             <div class="col-md">
+              <!--Card 1-->
               <div class="card h-100">
                 <img
                   src="pics/survery.PNG"
                   class="card-img-top"
-                  alt="..."
+                  alt="A made up survey image."
                   id="pics1"
                 />
                 <div class="bg-dark card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Gym Survey</h5>
                   <p class="card-text">
-                    This is a longer card with supporting text below as a
-                    natural lead-in to additional content. This content is a
-                    little bit longer.
+                    This project was for freecodecamp.org. It is a survey form
+                    for customers with as many options as possible.<br />
+                    <b>HTML and CSS</b>
                   </p>
+                  <br />
+                  <div class="col-md-12">
+                    <a
+                      class="btn btn-primary"
+                      href="https://github.com/RobertoCastaneda3500/Survey-Form"
+                      role="button"
+                      target="_blank"
+                      ><i class="bi bi-reddit"></i> Github
+                    </a>
+
+                    <a
+                      class="btn btn-primary"
+                      href="https://robertocastaneda3500.github.io/Survey-Form/"
+                      role="button"
+                      target="_blank"
+                      ><i class="bi bi-window"></i> Live
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col">
+            <!--Card 2-->
+            <div class="col-md">
               <div class="card h-100">
                 <img
                   src="pics/oldPortfolio.PNG"
                   class="card-img-top"
-                  alt="..."
+                  alt="first portfolio image"
                   id="projecttwo"
                 />
                 <div class="bg-dark card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a short card.</p>
+                  <h5 class="card-title">First Portfolio</h5>
+                  <p class="card-text">
+                    This project was for freecodecamp.org. This was my first
+                    portfolio. A lot of basics html and css was used for this
+                    project<br />
+                    <b>HTML and CSS</b>
+                  </p>
+                  <div class="col-md-12">
+                    <a
+                      class="btn btn-primary"
+                      href="https://github.com/RobertoCastaneda3500/Portfolio-Roberto-Castaneda"
+                      role="button"
+                      target="_blank"
+                      ><i class="bi bi-reddit"></i> Github
+                    </a>
+
+                    <a
+                      class="btn btn-primary"
+                      href="https://robertocastaneda3500.github.io/Portfolio-Roberto-Castaneda/#contact-info"
+                      role="button"
+                      target="_blank"
+                      ><i class="bi bi-window"></i> Live
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col">
+            <!--Card 3-->
+            <div class="col-md">
               <div class="card h-100">
-                <img src="pics/speed.PNG" class="card-img-top" alt="..." />
+                <img
+                  src="pics/speed.PNG"
+                  class="card-img-top"
+                  alt="Test your speed image"
+                />
                 <div class="bg-dark card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Reaction Time</h5>
                   <p class="card-text">
-                    This is a longer card with supporting text below as a
-                    natural lead-in to additional content.
+                    Test your speed on how fast you can click on the random
+                    shape. <br />
+                    <b>HTML, CSS, Javascript</b>
                   </p>
+                  <br />
+                  <br />
+                  <div class="col-md-12">
+                    <a
+                      class="btn btn-primary"
+                      href="https://robertocastaneda3500.github.io/Reaction-Test/"
+                      role="button"
+                      target="_blank"
+                      ><i class="bi bi-reddit"></i> Github
+                    </a>
+
+                    <a
+                      class="btn btn-primary"
+                      href="https://github.com/RobertoCastaneda3500/Reaction-Test"
+                      role="button"
+                      target="_blank"
+                      ><i class="bi bi-window"></i> Live
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col">
+            <!--Card 4-->
+            <div class="col-md">
               <div class="card h-100">
-                <img src="pics/calculator.PNG" class="card-img-top" alt="..." />
+                <img
+                  src="pics/calculator.PNG"
+                  class="card-img-top"
+                  alt="calculator image"
+                />
                 <div class="bg-dark card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Calculator</h5>
                   <p class="card-text">
-                    This is a longer card with supporting text below as a
-                    natural lead-in to additional content. This content is a
-                    little bit longer.
+                    Made a basic calculator that can do simple addition,
+                    subtraction, division, and multiplication.<br />
+                    <b>HTML, CSS, Javascript</b>
                   </p>
+                  <br />
+                  <div class="col-md-12">
+                    <a
+                      class="btn btn-primary"
+                      href="https://github.com/RobertoCastaneda3500/Calculator"
+                      role="button"
+                      target="_blank"
+                      ><i class="bi bi-reddit"></i> Github
+                    </a>
+
+                    <a
+                      class="btn btn-primary"
+                      href="https://robertocastaneda3500.github.io/Calculator/"
+                      role="button"
+                      target="_blank"
+                      ><i class="bi bi-window"></i> Live
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -193,8 +301,9 @@
 
     <!--contact section  -->
     <section class="bg-light text-dark py-4" id="contact">
-      <div class="container mt-5">
-        <h1 class="text-center">Contact me</h1>
+      <div class="form container mt-5">
+        <h1 class="title pt-4 pb-3 text-center">Contact Me</h1>
+
         <form action="" class="row g-3">
           <div class="col-md-6">
             <label for="firstName" class="form-label">First Name</label>
@@ -233,19 +342,51 @@
           </div>
         </form>
       </div>
+      <br />
+      <br />
     </section>
 
     <!--footer-->
-    <footer class="footer text-center text-lg-start">
-      <div class="text-center p-1">
-        © 2021 Copyright:
-        <a class="text-dark" href="https://github.com/RobertoCastaneda3500"
-          >Roberto Castaneda</a
-        >
+    <footer class="bg-light text-center text-white">
+      <div class="container p-4 pb-1">
+        <!-- Social media -->
+        <section class="mb-1">
+          <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #dd4b39"
+            href="mailto:robertocastaneda68@gmail.com"
+            role="button"
+            target="_blank"
+            ><i class="fab bi bi-envelope"></i
+          ></a>
+
+          <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #0082ca"
+            href="https://www.linkedin.com/in/roberto-castaneda-romero-4071b7164/"
+            role="button"
+            target="_blank"
+            ><i class="fab bi bi-linkedin"></i
+          ></a>
+
+          <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #333333"
+            href="https://github.com/RobertoCastaneda3500"
+            role="button"
+            target="_blank"
+            ><i class="fab bi bi-github"></i
+          ></a>
+        </section>
+      </div>
+
+      <div class="copyright text-center text-dark p-1">
+        © 2020 Copyright:
+        <a class="text-dark">Roberto Castaneda</a>
       </div>
     </footer>
 
-    <!--BoostStrap5-->
+    <!--BoostStrap5 scripts-->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
       integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
